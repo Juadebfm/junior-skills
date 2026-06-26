@@ -1,0 +1,4 @@
+interface:
+  display_name: "Grow Project"
+  short_description: "Add features and complexity in a controlled way"
+  default_prompt: "Use $grow-project to help me add more features, items, or abstraction to this project without overcomplicating it."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Understand Brief"
+  short_description: "Turn a project brief into a simple beginner plan"
+  default_prompt: "Use $understand-brief to break this project brief into pages, features, small tasks, and a beginner-friendly build order."

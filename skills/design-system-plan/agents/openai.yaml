@@ -1,0 +1,4 @@
+interface:
+  display_name: "Design System Plan"
+  short_description: "Plan a simple, reusable frontend design system"
+  default_prompt: "Use $design-system-plan to help me plan the colors, typography, spacing, components, and responsive rules for this project."

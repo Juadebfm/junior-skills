@@ -1,0 +1,4 @@
+interface:
+  display_name: "Check My Work"
+  short_description: "Review a small project or feature for beginner-level issues"
+  default_prompt: "Use $check-my-work to review this page or feature and tell me the most important beginner-friendly fixes."

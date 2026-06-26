@@ -1,0 +1,4 @@
+interface:
+  display_name: "Plan Stack"
+  short_description: "Plan a simple frontend and backend structure"
+  default_prompt: "Use $plan-stack to plan the frontend and backend structure for this project in a simple beginner-friendly way."

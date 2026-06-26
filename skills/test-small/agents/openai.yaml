@@ -1,0 +1,4 @@
+interface:
+  display_name: "Test Small"
+  short_description: "Plan practical testing for a small project or feature"
+  default_prompt: "Use $test-small to tell me what I should test in this feature or project and which checks matter most."

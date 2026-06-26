@@ -1,0 +1,4 @@
+interface:
+  display_name: "Security Check"
+  short_description: "Review a project for common beginner-level security issues"
+  default_prompt: "Use $security-check to review this feature or project for common security mistakes and tell me the safest next fixes."

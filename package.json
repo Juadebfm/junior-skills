@@ -1,0 +1,34 @@
+{
+  "name": "junior-skills",
+  "version": "0.1.0",
+  "description": "A beginner-friendly skills pack for understanding briefs, growing projects safely, planning frontend and backend work, and checking quality on small web apps.",
+  "keywords": [
+    "ai-skills",
+    "agent-skills",
+    "beginner",
+    "frontend",
+    "backend",
+    "learning",
+    "project-brief",
+    "design-system",
+    "testing",
+    "security",
+    "codex"
+  ],
+  "homepage": "https://github.com/Juadebfm/junior-skills",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Juadebfm/junior-skills.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Juadebfm/junior-skills/issues"
+  },
+  "files": [
+    "skills",
+    "examples",
+    "README.md",
+    "LICENSE"
+  ],
+  "license": "MIT",
+  "author": "Juadeb Gabriel"
+}

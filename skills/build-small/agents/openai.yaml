@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build Small"
+  short_description: "Build one small part of the project at a time"
+  default_prompt: "Use $build-small to help me build this page, section, or feature in the simplest beginner-friendly way."

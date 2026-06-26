@@ -1,0 +1,4 @@
+interface:
+  display_name: "Standards Check"
+  short_description: "Check the codebase for coding standards and consistency"
+  default_prompt: "Use $standards-check to review this codebase for naming, structure, readability, and coding-standard consistency."

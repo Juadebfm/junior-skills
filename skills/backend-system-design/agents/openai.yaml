@@ -1,0 +1,4 @@
+interface:
+  display_name: "Backend System Design"
+  short_description: "Plan a simple backend architecture for the project"
+  default_prompt: "Use $backend-system-design to help me design the backend architecture, APIs, data models, auth flow, and scaling choices for this project."
