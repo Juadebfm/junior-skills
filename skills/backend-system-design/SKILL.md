@@ -31,6 +31,13 @@ Produce:
 - key modules or domains
 - what should stay simple in version 1
 
+## Recommended Starter Stack
+
+- backend framework or style
+- database choice
+- auth approach
+- file storage approach if needed
+
 ## API Design
 
 - main endpoints
@@ -57,6 +64,12 @@ Produce:
 - file storage or external services if needed
 - logging basics
 
+## Request Flow
+
+- how data moves from client to API to database
+- where validation happens
+- where auth checks happen
+
 ## Scale Later
 
 - what is fine for now
@@ -73,3 +86,4 @@ If the user is designing a small app, prefer one backend service and a simple da
 - Explain tradeoffs in plain language.
 - Prefer a clear monolith over premature microservices.
 - Call out which ideas are version 2 or version 3 work.
+- Recommend one simple path first before mentioning alternatives.

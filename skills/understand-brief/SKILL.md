@@ -38,6 +38,12 @@ Produce:
 - Data the app will likely need
 - Suggested build order
 
+## Starter MVP
+
+- What to include in version 1
+- What screen or feature to build first
+- What to leave for version 2
+
 ## First Small Steps
 
 - Step 1
@@ -54,3 +60,4 @@ If the brief is too large for a beginner, say so clearly and reduce it to a smal
 - Do not jump straight into code unless the user asks.
 - If the brief includes many screens, suggest the easiest one to build first.
 - When helpful, recommend a simple MVP instead of the full scope.
+- Prefer a version-1 plan the user could realistically finish.

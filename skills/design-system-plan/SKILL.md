@@ -39,6 +39,12 @@ Produce:
 - borders
 - shadows
 
+## Starter Token Names
+
+- simple variable or token names the user can reuse
+- examples like primary, surface, text, muted, danger, success
+- examples like space-2, space-4, radius-md
+
 ## Core Components
 
 - buttons
@@ -47,6 +53,14 @@ Produce:
 - nav
 - tags or badges
 - empty and error states
+
+## Component States
+
+- default
+- hover
+- focus
+- disabled
+- error
 
 ## Responsive Rules
 
@@ -70,3 +84,4 @@ If the project is too small for a full design system, reduce it to a mini system
 - Avoid fancy UI rules the user will not maintain.
 - Prefer consistency over novelty.
 - Make sure the system can support both default and error states.
+- Prefer names and rules that are easy to map into CSS or React props later.
