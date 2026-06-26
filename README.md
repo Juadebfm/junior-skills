@@ -162,6 +162,33 @@ npx skills@latest add Juadebfm/junior-skills --skill understand-brief -a codex -
 
 If you publish under a different GitHub path, replace `Juadebfm/junior-skills` with your real repo path.
 
+## Keep Installed Skills Out Of Git
+
+If you install these skills into a real project and do not want the installed skill files committed or pushed, add this to that project's `.gitignore`:
+
+```gitignore
+.agents/skills/
+```
+
+This is useful when:
+
+- you want the skills only on your own machine
+- you do not want skill installs showing up in project diffs
+- you want to keep the application repo focused on app code only
+
+If you want the most automatic way to avoid project git changes, install the skills globally instead of into the project:
+
+```bash
+npx skills@latest add Juadebfm/junior-skills -g
+```
+
+That keeps the skills off the project repo entirely.
+
+Important note:
+
+- this skills repo cannot force another project's `.gitignore` to update automatically
+- the safest choices are either global install or manually adding `.agents/skills/` to the target project's `.gitignore`
+
 ## Repo Shape
 
 This repo follows the same simple installable pattern as the reference repo you shared:
