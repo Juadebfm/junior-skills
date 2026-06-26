@@ -1,0 +1,63 @@
+name: Bug report
+description: Report something that is broken or not working as expected.
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting this. Please give enough detail for someone else to reproduce the problem.
+  - type: input
+    id: summary
+    attributes:
+      label: Short summary
+      description: What is the problem in one sentence?
+      placeholder: Installing the skill pack fails with...
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Tell us exactly what you did.
+      placeholder: |
+        1. Ran...
+        2. Opened...
+        3. Saw...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      placeholder: I expected...
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      placeholder: Instead, what happened?
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Share useful environment details.
+      placeholder: |
+        - OS:
+        - Agent:
+        - Install command:
+        - Repo or project type:
+    validations:
+      required: false
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or screenshots
+      description: Paste any error output or screenshots that help explain the issue.
+      render: shell
+    validations:
+      required: false

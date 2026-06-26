@@ -1,0 +1,28 @@
+name: Documentation issue
+description: Report missing, confusing, or outdated docs.
+title: "[Docs]: "
+labels:
+  - documentation
+body:
+  - type: textarea
+    id: location
+    attributes:
+      label: Where is the documentation issue?
+      description: Share the file, section, or page.
+      placeholder: README install section, understand-brief docs, example prompts...
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is unclear or wrong?
+      placeholder: The docs say..., but...
+    validations:
+      required: true
+  - type: textarea
+    id: fix
+    attributes:
+      label: Suggested improvement
+      placeholder: It would be clearer if...
+    validations:
+      required: false
